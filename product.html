@@ -16,6 +16,14 @@
 
                     <h1 class="text-3xl font-bold">Greenden</h1>
 
+
+
+                    
+        <svg id="menuicon"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 md:hidden cursor-pointer">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+
+
                
 
 
@@ -37,6 +45,31 @@
 
                 </nav>
 
+
+                
+     <!-- side navbar -->
+      <section id="sidenav" class="bg-green-100 fixed  z-20 top-0 transition-all duration-1000 " style="width: 50%; height: 100vh; right: -50%;">
+
+        <div  class="text-right p-5">
+            <p id="closenav" class="inline cursor-pointer">X</p>
+        </div>
+
+        <ul class="flex flex-col gap-10 items-center text-gray-600  md:flex " >
+            <li>
+                <a class="hover:underline hover:text-black " href="index.html">Home</a>
+            
+            </li>
+    
+            <li>
+                <a class="hover:underline hover:text-black " href="product.html">Products</a>
+            </li>
+    
+            <li>
+                <a class="hover:underline hover:text-black " href="contact.html">Contacts</a>
+            </li>
+         </ul>
+      </section>
+
                 <!-- Our products  -->
                 
 
@@ -45,82 +78,82 @@
                     <h1 class="font-medium text-3xl mt-5"> Our Products</h1>
 
 
-                    <input type="text" class=" p-2 m-3 border border-black mt-10" placeholder="Search for a Products" style="width: 80%;">
+                    <input id="search" type="text" class=" p-2 m-3 border  border-black  mt-10" placeholder="Search for a Products" style="width: 80%; border-radius: 20px;">
 
 
 
-                    <div class="grid grid-cols-2 mt-10 gap-5 md:grid-cols-4">
+                    <div id="product-container" class="grid grid-cols-2 mt-10 gap-5 md:grid-cols-4">
 
                         <div>
-                            <img src="./image/best_1.png" alt="" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                            <img src="./image/best_1.png" alt="" class="inline hover:shadow-xl transform hover:-translate-y-2" style="border-radius: 20px;">
                             <h1>Rose pot</h1>
                             <p>$20</p>
                         </div>
 
                         <div>
-                            <img src="./image/best__2.png" alt="" class="inline  hover:shadow-xl transform hover:-translate-y-2">
-                            <h1>Rose pot</h1>
-                            <p>$20</p>
+                            <img src="./image/best__2.png" alt="" class="inline  hover:shadow-xl transform hover:-translate-y-2"  style="border-radius: 20px;">
+                            <h1>Tulip pot</h1>
+                            <p>$25</p>
                         </div>
 
                         <div>
-                            <img src="./image/best__3.png" alt=""  class="inline  hover:shadow-xl transform hover:-translate-y-2" >
-                            <h1>Rose pot</h1>
-                            <p>$20</p>
+                            <img src="./image/best__3.png" alt=""  class="inline  hover:shadow-xl transform hover:-translate-y-2"  style="border-radius: 20px;">
+                            <h1>Lily pot</h1>
+                            <p>$30</p>
                         </div>
 
                         <div>
-                            <img src="./image/best__4.png" alt="" class="inline hover:shadow-xl transform hover:-translate-y-2">
-                            <h1>Rose pot</h1>
-                            <p>$20</p>
+                            <img src="./image/best__4.png" alt="" class="inline hover:shadow-xl transform hover:-translate-y-2"  style="border-radius: 20px;">
+                            <h1>Orchid pot</h1>
+                            <p>$15</p>
                         </div>
 
                         <div>
-                            <img src="./image/best__5.png" alt="" class="inline  hover:shadow-xl transform hover:-translate-y-2">
-                            <h1>Rose pot</h1>
-                            <p>$20</p>
+                            <img src="./image/best__5.png" alt="" class="inline  hover:shadow-xl transform hover:-translate-y-2"  style="border-radius: 20px;">
+                            <h1>Sunflower pot</h1>
+                            <p>$15</p>
                         </div>
 
                         <div>
-                            <img src="./image/best__6.png" alt="" class="inline  hover:shadow-xl transform hover:-translate-y-2">
-                            <h1>Rose pot</h1>
-                            <p>$20</p>
+                            <img src="./image/best__6.png" alt="" class="inline  hover:shadow-xl transform hover:-translate-y-2"  style="border-radius: 20px;">
+                            <h1>Daisy pot</h1>
+                            <p>$21</p>
                         </div>
 
                         <div>
-                            <img src="./image/best__7.png" alt="" class="inline  hover:shadow-xl transform hover:-translate-y-2">
-                            <h1>Rose pot</h1>
-                            <p>$20</p>
+                            <img src="./image/best__7.png" alt="" class="inline  hover:shadow-xl transform hover:-translate-y-2"  style="border-radius: 20px;">
+                            <h1>Jasmine pot</h1>
+                            <p>$24</p>
                         </div>
 
                         <div>
-                            <img src="./image/best__8.png" alt="" class="inline  hover:shadow-xl transform hover:-translate-y-2">
-                            <h1>Rose pot</h1>
-                            <p>$20</p>
+                            <img src="./image/best__8.png" alt="" class="inline  hover:shadow-xl transform hover:-translate-y-2"  style="border-radius: 20px;">
+                            <h1>Marigold pot</h1>
+                            <p>$55</p>
                         </div>
 
                         <div>
-                            <img src="./image/best__9.png" alt="" class="inline  hover:shadow-xl transform hover:-translate-y-2">
-                            <h1>Rose pot</h1>
-                            <p>$20</p>
+                            <img src="./image/best__9.png" alt="" class="inline  hover:shadow-xl transform hover:-translate-y-2"  style="border-radius: 20px;">
+                            <h1>Hibiscus pot</h1>
+                            <p>$45</p>
                         </div>
 
                         <div>
-                            <img src="./image/best__10.png" alt="" class="inline  hover:shadow-xl transform hover:-translate-y-2">
-                            <h1>Rose pot</h1>
-                            <p>$20</p>
+                            <img src="./image/best__10.png" alt="" class="inline  hover:shadow-xl transform hover:-translate-y-2"  style="border-radius: 20px;">
+                            <h1>Lotus pot</h1>
+                            <p>$10</p>
                         </div>
 
                         <div>
-                            <img src="./image/best__11.png" alt=""  class="inline  hover:shadow-xl transform hover:-translate-y-2" >
-                            <h1>Rose pot</h1>
-                            <p>$20</p>
+                            <img src="./image/best__11.png" alt=""  class="inline  hover:shadow-xl transform hover:-translate-y-2"  style="border-radius: 20px;">
+                            <h1>Lavender pot</h1>
+                            <p>$35</p>
                         </div>
 
                         <div>
-                            <img src="./image/best__12.png" alt="" class="inline  hover:shadow-xl transform hover:-translate-y-2">
-                            <h1>Rose pot</h1>
-                            <p>$20</p>
+                            <img src="./image/best__12.png" alt="" class="inline  hover:shadow-xl transform hover:-translate-y-2"  style="border-radius: 20px;">
+                            <h1>Magnolia pot</h1>
+                            <p>$30</p>
                         </div>
 
 
@@ -139,7 +172,7 @@
 
                      
 
-
+<script src="product.js"></script>
 
 
 </body>
